@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <title>Tundrapp</title>
+    </head>
+    <body>
+
+        <section id="home" class="page active">
+            <div class="header">
+                <!-- <img id="header-logo" src="./img/header-logo.svg" alt="logo"> -->
+            </div>
+            <main>
+                <div id="cards"></div>
+            </main>
+
+            <div class="nav">
+                <!-- buttons -->
+                <div  class="nav-btn home-btn" data-target="home">
+                    <img class="icons" src="./img/home-icon-on.svg" alt="home-icon">
+                    <p>Tundra</p>
+                </div>
+                <div class="nav-btn liked-btn" data-target="liked">
+                    <img class="icons" src="./img/liked-icon.svg" alt="liked-icon">
+                    <p>I like</p>
+                </div>
+            </div>
+        </section>
+        <!-- liked page -->
+        <section id="liked" class="page">
+            <div class="header">
+                <h3 id="title-liked">Total people liked: <span id="likeNum"></span></h3>
+            </div>
+            <main>
+                <div class="card-list">
+                    
+                </div>
+
+            </main>
+            <div class="nav">
+                <div  class="nav-btn home-btn" data-target="home">
+                    <img class="icons" src="./img/home-icon.svg" alt="home-icon">
+                    <p>Tundra</p>
+                </div>
+                <div class="nav-btn liked-btn" data-target="liked">
+                    <img class="icons" src="./img/liked-icon-on.svg" alt="liked-icon">
+                    <p>I like..</p>
+                </div>
+            </div>
+        </section>
+        <div class="trans-like">
+            <h1>LIKE!</h1>
+            <img src="./img/tundra.svg" alt="tundra">
+        </div>
+        <div class="trans-nope">
+            <h1>NEGG!</h1>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        
+    </body>
+</html>

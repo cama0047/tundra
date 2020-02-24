@@ -8,10 +8,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "ca.edumedia.cama0047.tundra"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "ca.edumedia.cama0047.tundra"
     }
   },
   "dependent_plugins": {}

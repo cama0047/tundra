@@ -22,5 +22,49 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+
+
+ <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+
+        <icon src="/res/icon/ios/icon-60.png"/>
+        <icon src="/res/icon/ios/icon-60@2x.png"/>
+        <icon src="/res/icon/ios/icon-60@3x.png"/>
+        <icon src="/res/icon/ios/icon-72.png"/>
+        <icon src="/res/icon/ios/icon-72@2x.png"/>
+        <icon src="/res/icon/ios/icon-76.png"/>
+        <icon src="/res/icon/ios/icon-76@2x.png"/>
+        <icon src="/res/icon/ios/icon-83.5@2x.png"/>
+        <icon src="/res/icon/ios/icon-167.png"/>
+        <icon src="/res/icon/ios/icon-1024.png"/>
+        <icon src="/res/icon/ios/icon-small.png"/>
+        <icon src="/res/icon/ios/icon-small-@2x.png"/>
+        <icon src="/res/icon/ios/icon-small-@3x.png"/>
+        <icon src="/res/icon/ios/icon-small-40.png"/>
+        <icon src="/res/icon/ios/icon-small-40@2x.png"/>
+        <icon src="/res/icon/ios/icon-small-40@3x.png"/>
+        <icon src="/res/icon/ios/icon-small-50.png"/>
+        <icon src="/res/icon/ios/icon-small-50@2x.png"/>
+        <icon src="/res/icon/ios/icon.png"/>
+    
+    
+    <splash src="/res/screen/ios/Default-568h@2x~iphone.png"/>
+    <splash src="/res/screen/ios/Default-667h.png"/>
+    <splash src="/res/screen/ios/Default-736h.png"/>
+    <!-- <splash src="/res/screen/ios/Default-736h-2.png"/> -->
+    <splash src="/res/screen/ios/Default@2x~iphone~anyany.png"/>
+    <splash src="/res/screen/ios/Default@2x~iphone~comany.png"/>
+    <splash src="/res/screen/ios/Default@3x~iphone~anyany.png"/>
+    <splash src="/res/screen/ios/Default~iphone.png"/>
+
+    
+
+
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="3000" />
+
+
+
+
     </platform>
 </widget>
